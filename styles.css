@@ -1,0 +1,9 @@
+h1 {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  font-style: italic;
+}
+
+b {
+  color: burlywood;
+}
