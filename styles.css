@@ -2,6 +2,7 @@ h1 {
   text-decoration: underline;
   text-decoration-style: solid;
   font-style: italic;
+  color: burlywood;
 }
 
 b {
@@ -9,5 +10,45 @@ b {
 }
 
 body {
-  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(46, 31, 12);
+}
+
+nav {
+  min-height: 30px;
+  margin: 0;
+  /*padding: 10px 5px 10px 5px;*/
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  i {
+    color: orange;
+    size: 50px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    li {
+      margin: 0;
+      padding: 0 0 5px 5px;
+    }
+    i {
+      color: brown;
+    }
+    a {
+      color: cornsilk
+    }
+  }
 }
