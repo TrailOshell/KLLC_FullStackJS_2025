@@ -13,9 +13,11 @@
   "author": "Ives van Hoorne",
   "license": "MIT",
   "devDependencies": {
-    "serve": "^14.2.4"
+    "serve": "^10.0.2"
   },
   "dependencies": {
-    "bootstrap": "^5.3.7"
+    "@tailwindcss/cli": "^4.1.11",
+    "bootstrap": "^5.3.7",
+    "tailwindcss": "^4.1.11"
   }
 }
